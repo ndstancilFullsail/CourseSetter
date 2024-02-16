@@ -3,4 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3" />
+    android:background="#2196F3" >
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="292dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="78dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
