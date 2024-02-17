@@ -9,7 +9,8 @@
     android:backgroundTintMode="screen">
 
     <Button
-        android:id="@+id/CustonCoursebutton"
+        android:id="@+id/RegenerateCoursebutton"
+        style="@style/Widget.Material3.Button"
         android:layout_width="155dp"
         android:layout_height="89dp"
         android:layout_marginStart="240dp"
@@ -17,6 +18,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="72dp"
         android:text="Custom Course"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintBottom_toTopOf="@+id/startbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +26,15 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/CustonCoursebutton"
+        android:id="@+id/RegenerateCoursebutton"
+        style="@style/Widget.Material3.Button"
         android:layout_width="155dp"
         android:layout_height="89dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="57dp"
         android:layout_marginBottom="72dp"
         android:text="Regenerate Course"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintBottom_toTopOf="@+id/startbutton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapView"
